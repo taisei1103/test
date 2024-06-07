@@ -48,4 +48,3 @@ from PIL import Image     # 이미지 처리를 위한 PIL 라이브러리 임�
 st.write('# 4. 이미지 표시하기')   # 텍스트 출력
 img = Image.open('python.png')    # 이미지 파일 열기
 st.image(img, width=300)          # 이미지 출력
-
