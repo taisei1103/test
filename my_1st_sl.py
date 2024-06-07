@@ -11,15 +11,19 @@ st.write('# 1. Computer Game')
 st.markdown(
     '''
     # League Of Legend
+    img = Image.open('league of legends.jpeg')
     - 온라인 게임 **국내 피시방 점유율 1위 게임**
     
     - LCK *'리그오브레전드 챔피언스 코리아'* 팀목록
         - SKT T1
         - DWG KIA
         - Gen.G
-    ## 게임사 공식홈페이지
-    - [라이엇 게임즈](https://www.riotgames.com/ko)
-    - [리그오브레전드](https://www.leagueoflegends.com/ko-kr/)
+    - 게임사 공식홈페이지
+        - [라이엇 게임즈](https://www.riotgames.com/ko)
+        - [리그오브레전드](https://www.leagueoflegends.com/ko-kr/)
+
+    #Steam games
+    -
     '''
     )
 
