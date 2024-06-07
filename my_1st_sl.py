@@ -12,7 +12,7 @@ st.markdown(
     '''
     # League Of Legend
     - 온라인 게임 **국내 피시방 점유율 1위 게임**
-    - LCK *리그오브레전드 챔피언스 코리아* 팀목록
+    - LCK *'리그오브레전드 챔피언스 코리아'* 팀목록
         - SKT T1
         - DWG KIA
         - GEn.G
