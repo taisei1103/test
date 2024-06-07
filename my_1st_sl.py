@@ -2,23 +2,23 @@ import streamlit as st  # streamlit 라이브러리 임포트
 
 
 # 타이틀 텍스트 출력
-st.title('첫번째 웹 어플 만들기 ')
+st.title('오민근의 관심 분야 ')
 
 # 텍스트 출력
-st.write('# 1. Markdown 텍스트 작성하기')
+st.write('# 1. Computer Game')
 
 # Markdown 문법으로 작성된 문장 출력
 st.markdown(
     '''
-    # 마크다운 헤더1
-    - 마크다운 목록1. **굵게** 표시
-    - 마크다운 목록2. *기울임* 표시
-        - 마크다운 목록2-1
-        - 마크다운 목록2-2
-
-    ## 마크다운 헤더2
-    - [네이버](https://naver.com)
-    - [구글](https://google.com)
+    # League Of Legend
+    - 온라인 게임 **국내 피시방 점유율 1위 게임**
+    - LCK *리그오브레전드 챔피언스 코리아* 팀목록
+        - SKT T1
+        - DWG KIA
+        - GEn.G
+    ## 게임사 공식홈페이지
+    - [라이엇 게임즈](https://www.riotgames.com/ko)
+    - [리그오브레전드](https://www.leagueoflegends.com/ko-kr/)
 
     ### 마크다운 헤더3
     일반 텍스트
