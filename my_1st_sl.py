@@ -2,7 +2,7 @@ import streamlit as st  # streamlit 라이브러리 임포트
 
 
 # 타이틀 텍스트 출력
-st.title('오민근의 관심 분야 ')
+st.title('😊오민근의 관심 분야👍 ')
 
 # 텍스트 출력
 st.write('# 1. Computer Game')
@@ -12,6 +12,7 @@ st.markdown(
     '''
     # League Of Legend
     - 온라인 게임 **국내 피시방 점유율 1위 게임**
+    
     - LCK *'리그오브레전드 챔피언스 코리아'* 팀목록
         - SKT T1
         - DWG KIA
@@ -20,18 +21,15 @@ st.markdown(
     - [라이엇 게임즈](https://www.riotgames.com/ko)
     - [리그오브레전드](https://www.leagueoflegends.com/ko-kr/)
 
-    ### 마크다운 헤더3
-    일반 텍스트
-    '''
     )
 
 # DataFrame 출력
 import pandas as pd  # pandas 라이브러리 임포트
 
-st.write('# 2. DataFrame 표시하기')  # 텍스트 출력
+st.write('# 2. Watching YouTube')  # 텍스트 출력
 df = pd.DataFrame({  # DataFrame 생성
-    '이름': ['홍길동', '이순신', '강감찬'],
-    '나이': [20, 45, 35]
+    '구독중': ['PAKA', '랄로', 'ITSUB잇섭'],
+    '구독자': [75만명, 125만명, 255만명]
 })
 
 st.dataframe(df)  # DataFrame 출력
