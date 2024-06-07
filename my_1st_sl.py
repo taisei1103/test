@@ -11,7 +11,6 @@ st.write('# 1. Computer Game')
 st.markdown(
     '''
     # League Of Legend
-    img = Image.open('league of legends.jpeg')
     - 온라인 게임 **국내 피시방 점유율 1위 게임**
     
     - LCK *'리그오브레전드 챔피언스 코리아'* 팀목록
@@ -50,5 +49,5 @@ st.bar_chart(chart_data)  # 바 차트 출력
 from PIL import Image     # 이미지 처리를 위한 PIL 라이브러리 임포트
 
 st.write('# 4. 이미지 표시하기')   # 텍스트 출력
-img = Image.open('python.png')    # 이미지 파일 열기
+img = Image.open('league of legends.jpeg')    # 이미지 파일 열기
 st.image(img, width=300)          # 이미지 출력
