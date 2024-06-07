@@ -29,7 +29,7 @@ import pandas as pd  # pandas 라이브러리 임포트
 st.write('# 2. Watching YouTube')  # 텍스트 출력
 df = pd.DataFrame({  # DataFrame 생성
     '구독중': ['PAKA', '랄로', 'ITSUB잇섭'],
-    '구독자': [750,000, 1,250,000, 2,550,000]
+    '구독자': [750000, 1250000, 2550000]
 })
 
 st.dataframe(df)  # DataFrame 출력
