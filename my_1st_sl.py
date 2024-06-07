@@ -15,7 +15,7 @@ st.markdown(
     - LCK *'리그오브레전드 챔피언스 코리아'* 팀목록
         - SKT T1
         - DWG KIA
-        - GEn.G
+        - Gen.G
     ## 게임사 공식홈페이지
     - [라이엇 게임즈](https://www.riotgames.com/ko)
     - [리그오브레전드](https://www.leagueoflegends.com/ko-kr/)
