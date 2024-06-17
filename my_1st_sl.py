@@ -7,6 +7,11 @@ st.title('오민근의🪫모교 홍익대학교 전자전기공학부🔌')
 
 # 텍스트 출력
 st.write('# 1. 학과 소개')
+from PIL import Image
+st.write('# 홍익대학교 로고')   # 텍스트 출력
+
+img = Image.open('hongik.png')    # 이미지 파일 열기
+st.image(img, width=300)          # 이미지 출력
 
 # Markdown 문법으로 작성된 문장 출력
 st.markdown(
