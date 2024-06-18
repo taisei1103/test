@@ -71,7 +71,7 @@ st.markdown(
         - 복지부 - 전자전기공학부 학생들의 처우 개선을 위한 복지 관련 업무 담당
         - 총무부 - 학생회비 재정에 관한 사무 담당
 
-    #학회
+    # 학회
     - 학회 및 소모임
         - IEEE - 전자전기기술자협회인 IEEE(Institute of Electrical and Electronics Engineers)를 기반으로 둔 학회
         - 마프(MARP) - 컴퓨터, 전자부품, 전광관련 기자재를 보유하며 전공 탐구를 목적으로 하는 학회
