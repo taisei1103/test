@@ -56,9 +56,8 @@ df = pd.DataFrame({  # DataFrame 생성
 })
 
 st.dataframe(df)  # DataFrame 출력
-from PIL import Image     # 이미지 처리를 위한 PIL 라이브러리 임포트
-
 st.write('# 전자전기공학부 P동(제2공학관) 쉽게 오는 방법')   # 텍스트 출력
+from PIL import Image     # 이미지 처리를 위한 PIL 라이브러리 임포트
 img = Image.open('hongikP.jpeg')    # 이미지 파일 열기
 st.image(img, width=300)          # 이미지 출력
 st.write('')  # 텍스트 출력
