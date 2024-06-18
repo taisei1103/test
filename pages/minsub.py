@@ -24,7 +24,7 @@ import numpy as np
 
 # 데이터 설정
 subjects = np.array(['국어', '영어', '수학', '탐구', '평균'])
-scores = np.array([85, 1.91, 92, 84.5, 87.17])
+scores = np.array([85, 91, 92, 84.5, 87.17])
 df = pd.DataFrame({
     '과목': subjects,
     '점수': scores
