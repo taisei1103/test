@@ -4,6 +4,12 @@ import streamlit as st  # streamlit 라이브러리 임포트
 # 타이틀 텍스트 출력
 st.title('오민근의🪫모교 홍익대학교 전자전기공학부🔌')
 
+st.header('🤖 사이드바')
+st.sidebar.write('## 사이드바 텍스트')
+st.sidebar.checkbox('체크박스 1')
+st.sidebar.checkbox('체크박스 2')
+st.sidebar.radio('라디오 버튼', ['radio 1', 'radio 2', 'radio 3'])
+st.sidebar.selectbox('셀렉트박스', ['select 1', 'select 2', 'select 3'])
 
 # 텍스트 출력
 st.write('# 1. 학과 소개')
