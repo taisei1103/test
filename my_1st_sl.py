@@ -58,16 +58,23 @@ df = pd.DataFrame({  # DataFrame 생성
 st.dataframe(df)  # DataFrame 출력
 from PIL import Image     # 이미지 처리를 위한 PIL 라이브러리 임포트
 
-st.write('# 전자전기공학부 P동 제 2 공학관 오는 법')   # 텍스트 출력
-img = Image.open('league of legends.jpeg')    # 이미지 파일 열기
+st.write('# 전자전기공학부 P동(제2공학관) 쉽게 오는 방법')   # 텍스트 출력
+img = Image.open('hongikP.jpeg')    # 이미지 파일 열기
 st.image(img, width=300)          # 이미지 출력
+st.write('')  # 텍스트 출력
+st.markdown(
+    '''
+    #정문에서부터
+    
+   1. 홍문관(R동)을 지나 오르막을 오른다.
 
+   2. 와우관(L동)에서 엘리베이터를 타 7층 외부통로로 나간다.
+
+   3. I동을 지나 직진하고 왼쪽으로 꺾는다.
+
+   4. 제2공학관 (P동) 도착!
+
+    '''
+    )
 # 그래프 출력
-import numpy as np   # numpy 라이브러리 임포트
 
-st.write('# 3. 그래프 표시하기')  # 텍스트 출력
-chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"]) # DataFrame 생성
-
-st.bar_chart(chart_data)  # 바 차트 출력
-
-# 이미지 출력
