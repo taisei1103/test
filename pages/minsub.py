@@ -5,6 +5,11 @@ st.title('2023학년도 홍익대 전자전기공학부 입시 결과')
 
 # 텍스트 출력
 st.write('# 1. 수시')
+st.markdown(
+    '''
+    최초합격자 70% cut 등급은 다음 그래프와 같다.
+    '''
+    )
 
 import numpy as np   # numpy 라이브러리 임포트
 import pandas as pd
@@ -18,6 +23,11 @@ st.title('수시 입결')
 st.bar_chart(df)
 
 st.write('# 2. 정시')
+st.markdown(
+    '''
+    합격자 평균 점수는 다음 그래프와 같다.
+    '''
+    )
 import streamlit as st
 import pandas as pd
 import numpy as np
